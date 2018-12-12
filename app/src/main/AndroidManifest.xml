@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activity2" />
-        <activity android:name=".SwipeLeft"></activity>
+        <activity android:name=".SwipeLeft" />
+        <activity android:name=".Registrering"></activity>
     </application>
 
 </manifest>
