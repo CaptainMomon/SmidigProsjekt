@@ -19,7 +19,7 @@ public class Registrering extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent startIntent = new Intent(getApplicationContext(), HomePage.class);
+                Intent startIntent = new Intent(getApplicationContext(), tab1Fragment.class);
                 startActivity(startIntent);
             }
         });
