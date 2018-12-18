@@ -146,9 +146,7 @@
                 <customfonts.MyTextView_Roboto_Medium
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Home"
-                    android:textSize="15sp"
-                    android:textColor="@color/black"/>
+                    android:text="Home" />
             </LinearLayout>
 
             <LinearLayout
@@ -167,9 +165,7 @@
                 <customfonts.MyTextView_Roboto_Medium
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Profile"
-                    android:textSize="15sp"
-                    android:textColor="@color/black"/>
+                    android:text="Profile" />
             </LinearLayout>
 
             <LinearLayout

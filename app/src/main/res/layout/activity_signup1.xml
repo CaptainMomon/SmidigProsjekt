@@ -27,11 +27,11 @@
         <customfonts.TextViewSFProDisplaySemibold
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:gravity="center_vertical"
-            android:text="WORLD’s Leading Ecommerce Platform"
-            android:textColor="@color/black"
             android:paddingLeft="16.5dp"
-            android:layout_gravity="center"/>
+            android:text="WORLD’s Leading Ecommerce Platform"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
     </LinearLayout>
 
 
@@ -46,17 +46,16 @@
             <customfonts.EditText_SF_Pro_Display_Medium
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableRight="@drawable/envelope"
+                android:drawablePadding="10dp"
+                android:hint="Email Address"
                 android:inputType="textEmailAddress"
                 android:maxLength="10"
                 android:maxLines="1"
-                android:hint="Email Address"
-                android:drawablePadding="10dp"
-                android:paddingRight="10dp"
-                android:drawableRight="@drawable/envelope"
                 android:paddingTop="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:textSize="14.7sp" />
+                android:paddingRight="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="@color/black" />
 
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
@@ -68,39 +67,37 @@
             <customfonts.EditText_SF_Pro_Display_Medium
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="text"
-                android:maxLength="10"
-                android:maxLines="1"
+                android:drawableRight="@drawable/user"
+                android:drawablePadding="10dp"
                 android:hint="First Name"
-                android:drawablePadding="10dp"
-                android:paddingRight="10dp"
-                android:drawableRight="@drawable/user"
-                android:paddingTop="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:textSize="14.7sp" />
-
-        </android.support.design.widget.TextInputLayout>
-        <android.support.design.widget.TextInputLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="23dp"
-            android:layout_marginLeft="24.7dp">
-
-            <customfonts.EditText_SF_Pro_Display_Medium
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:inputType="text"
                 android:maxLength="10"
                 android:maxLines="1"
-                android:hint="Last Name"
+                android:paddingTop="10dp"
                 android:paddingRight="10dp"
-                android:drawablePadding="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="@color/black" />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:layout_marginLeft="24.7dp">
+
+            <customfonts.EditText_SF_Pro_Display_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:drawableRight="@drawable/user"
+                android:drawablePadding="10dp"
+                android:hint="Last Name"
+                android:inputType="text"
+                android:maxLength="10"
+                android:maxLines="1"
                 android:paddingTop="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:textSize="14.7sp" />
+                android:paddingRight="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="@color/black" />
 
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
@@ -112,17 +109,16 @@
             <customfonts.EditText_SF_Pro_Display_Medium
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
-                android:maxLength="10"
-                android:maxLines="1"
+                android:drawableRight="@drawable/eye"
+                android:drawablePadding="10dp"
                 android:hint="Password"
-                android:drawablePadding="10dp"
-                android:drawableRight="@drawable/eye"
-                android:paddingRight="10dp"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:maxLines="1"
                 android:paddingTop="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:textSize="14.7sp" />
+                android:paddingRight="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="@color/black" />
 
         </android.support.design.widget.TextInputLayout>
         <android.support.design.widget.TextInputLayout
@@ -134,17 +130,16 @@
             <customfonts.EditText_SF_Pro_Display_Medium
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:drawableRight="@drawable/eye"
+                android:drawablePadding="10dp"
+                android:hint="Confirm Password"
                 android:inputType="textPassword"
                 android:maxLength="10"
                 android:maxLines="1"
-                android:hint="Confirm Password"
-                android:drawablePadding="10dp"
-                android:drawableRight="@drawable/eye"
-                android:paddingRight="10dp"
                 android:paddingTop="10dp"
-                android:textColor="@color/black"
-                android:textColorHint="@color/black"
-                android:textSize="14.7sp" />
+                android:paddingRight="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColorHint="@color/black" />
 
         </android.support.design.widget.TextInputLayout>
     <customfonts.TextViewSFProDisplayMedium
@@ -160,13 +155,14 @@
         android:layout_marginLeft="16dp"
         android:layout_marginTop="52dp"
         android:background="@drawable/button_rect"/>
-    <customfonts.TextViewSFProDisplayMedium
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Or Login with social media"
-        android:textColor="@color/black"
-        android:gravity="center_horizontal"
-        android:layout_marginTop="30dp"/>
+
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center_horizontal"
+            android:text="Or Login with social media"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -67,10 +67,10 @@
             <customfonts.MyTextView_Roboto_Medium
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="FASHION"
+                android:layout_marginLeft="27dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/red"
-                android:layout_marginLeft="27dp"/>
+                android:text="FASHION"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -105,10 +105,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Cloths"
                         android:layout_marginTop="5dp"
-                        android:textSize="12sp"/>
+                        android:text="Cloths"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
                 </LinearLayout>
 
@@ -131,10 +130,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Specks"
                         android:layout_marginTop="10dp"
-                        android:textSize="12sp"/>
+                        android:text="Specks"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
                 </LinearLayout>
@@ -159,10 +157,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Shoes"
                         android:layout_marginTop="10dp"
-                        android:textSize="12sp"/>
+                        android:text="Shoes"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
                 </LinearLayout>
@@ -187,10 +184,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Shuits"
                         android:layout_marginTop="10dp"
-                        android:textSize="12sp"/>
+                        android:text="Shuits"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
 
@@ -225,10 +221,10 @@
             <customfonts.MyTextView_Roboto_Medium
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="BRANDS"
+                android:layout_marginLeft="27dp"
                 android:layout_marginTop="20dp"
-                android:textColor="@color/red"
-                android:layout_marginLeft="27dp"/>
+                android:text="BRANDS"
+                android:textAppearance="@style/TextAppearance.AppCompat" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -263,10 +259,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Puma"
                         android:layout_marginTop="5dp"
-                        android:textSize="12sp"/>
+                        android:text="Puma"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
                 </LinearLayout>
 
@@ -299,10 +294,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="@string/dg"
                         android:layout_marginTop="5dp"
-                        android:textSize="12sp"/>
+                        android:text="@string/dg"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
                 </LinearLayout>
@@ -336,10 +330,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Ray ban"
                         android:layout_marginTop="5dp"
-                        android:textSize="12sp"/>
+                        android:text="Ray ban"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
                 </LinearLayout>
@@ -373,10 +366,9 @@
                     <customfonts.MyTextView_Roboto_Regular
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Nike"
                         android:layout_marginTop="5dp"
-                        android:textSize="12sp"/>
+                        android:text="Nike"
+                        android:textAppearance="@style/TextAppearance.AppCompat" />
 
 
                 </LinearLayout>
