@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.Signup2Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="35dp">
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="44dp"
+            android:src="@drawable/logo"/>
+
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="WORLD’s Leading Ecommerce Platform"
+            android:textColor="@color/black"
+            android:paddingLeft="16.5dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="306dp"
+        android:layout_gravity="center"
+        android:clipToPadding="false"
+        android:paddingLeft="27dp"
+        android:paddingRight="55dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/viewPager">
+    </android.support.v4.view.ViewPager>
+
+    <me.relex.circleindicator.CircleIndicator
+        android:id="@+id/indicator"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:ci_drawable="@drawable/envelope"
+        app:ci_drawable_unselected="@drawable/eye_open"
+        android:visibility="gone"
+        app:ci_width="5dp"
+        app:ci_height="5dp"/>
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Login with Facebook"
+        android:paddingBottom="13.5dp"
+        android:paddingTop="13.5dp"
+        android:layout_marginTop="35dp"
+        android:textSize="15sp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="27dp"
+        android:layout_marginLeft="27dp"
+        android:background="@drawable/blue_rect"/>
+    <customfonts.TextViewSFProDisplayRegular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="Login with Gmail"
+        android:paddingBottom="13.5dp"
+        android:paddingTop="13.5dp"
+        android:textSize="15sp"
+        android:layout_marginTop="7dp"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="27dp"
+        android:layout_marginLeft="27dp"
+        android:background="@drawable/gmail_rect"/>
+
+</LinearLayout>

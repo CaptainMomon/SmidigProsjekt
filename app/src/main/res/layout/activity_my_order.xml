@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft2.coco_ecommerce_ui_kit.com.ws.wolfsoft2.coco_ecommerce_ui_kit.MyOrderActivity">
+
+
+    <include layout="@layout/toolbar_product_grid_detail"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/black_rect"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="11sp"
+            android:layout_marginRight="11sp"
+            android:padding="13sp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="@color/white"
+                    android:text="Tap on card to see order details"/>
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_cancel"
+                android:tint="@color/white"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="@color/white"
+                    android:text="You can"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="#f8c312"
+                    android:layout_marginLeft="5dp"
+                    android:text="Track, Cancel"/>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:text="Or"/>
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="#f8c312"
+                    android:layout_marginLeft="5dp"
+                    android:text="Return"/>
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="5dp"
+                    android:text="your order "/>
+
+            </LinearLayout>
+
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="12.3sp"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="3dp"
+                    android:text="from order detail."/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginTop="16sp"
+            android:layout_marginLeft="11sp"
+            android:layout_marginRight="11sp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="28dp"
+                    android:layout_marginTop="17dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                    
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="56dp"
+                        android:src="@drawable/iphnx"/>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="vertical">
+
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textSize="13.3sp"
+                            android:layout_marginRight="20dp"
+                            android:text="Iphone X | 128 GB, Black | 6 GB ram |12000 mAh battry"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <customfonts.MyTextView_Roboto_Bold
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="$ 288"
+                                android:textSize="16sp"
+                                android:textColor="@color/black"/>
+
+                            <customfonts.MyTextView_Roboto_Medium
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/green"
+                                android:textSize="12.3sp"
+                                android:text="(Cash On Delivery)"
+                                android:layout_marginLeft="10dp"/>
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0.5dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@color/view_line"/>
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="10.5dp"
+                            android:text="Approx Delivery time : 3 days form today"/>
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="3.5dp"
+                            android:text="Status : Processed from Seller"/>
+
+
+                        <customfonts.MyTextView_Roboto_Medium
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="11sp"
+                            android:textColor="@color/black"
+                            android:layout_marginTop="3.5dp"
+                            android:text="Date of Order : 10/04/2018"/>
+
+
+                    </LinearLayout>
+
+
+
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <customfonts.MyTextView_Roboto_Medium
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Track"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:paddingRight="25dp"
+                        android:paddingLeft="25dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginLeft="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/filter_gray_rect1"/>
+
+                    <customfonts.MyTextView_Roboto_Medium
+                        android:layout_weight="0.8"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Support"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:background="@drawable/filter_gray_rect1"/>
+
+                    <customfonts.MyTextView_Roboto_Medium
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:text="Cancel Order"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="15dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:layout_marginRight="8dp"
+                        android:gravity="center"
+                        android:background="@drawable/filter_gray_rect1"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.CocoEmptyWhishListActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <include layout="@layout/toolbar_cart"></include>
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:src="@drawable/empty"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"/>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="You have no items in your wishlist"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp"/>
+    </LinearLayout>
+
+    <customfonts.Button_Roboto_Medium
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"
+        android:text="Start Shopping"
+        android:textColor="@color/white"
+        android:background="@drawable/shopping_rect"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+       />
+
+</RelativeLayout>

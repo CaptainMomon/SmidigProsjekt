@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.CocoLogin1Activity">
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="74dp"
+            android:layout_height="87dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="42.7dp"/>
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WORLD’s Leading Ecommerce Platform"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="19dp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="23dp"
+            android:layout_marginLeft="24.7dp"
+            android:layout_marginTop="60.3dp">
+
+            <customfonts.EditText_SF_Pro_Display_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:hint="Email Address"
+                android:paddingRight="10dp"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/envelope"
+                android:paddingTop="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="14.7sp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:layout_marginRight="23dp"
+            android:layout_marginLeft="24.7dp"
+            android:theme="@style/TextLabel">
+
+
+            <customfonts.EditText_SF_Pro_Display_Medium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:maxLength="10"
+                android:maxLines="1"
+                android:drawablePadding="10dp"
+                android:drawableRight="@drawable/eye"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:hint="Password"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="14.7sp" />
+
+        </android.support.design.widget.TextInputLayout>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12.7sp"
+            android:text="Forgot Password?"
+            android:textColor="#89000000"
+            android:gravity="right"
+            android:layout_marginRight="22dp"
+            android:layout_marginTop="22.3dp"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Login"
+            android:textSize="16.7sp"
+            android:gravity="center_horizontal"
+            android:paddingBottom="16dp"
+            android:paddingTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/button_rect"/>
+        <customfonts.TextViewSFProDisplayMedium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11.3sp"
+            android:textColor="@color/black"
+            android:text="Or Login with social media"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="32dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginTop="17.3dp"
+            android:layout_marginBottom="13dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp">
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Gmail"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:paddingTop="13.5dp"
+                android:paddingBottom="13.5dp"
+                android:background="@drawable/gmail_rect"/>
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="Facebook"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:layout_marginLeft="5.5dp"
+                android:gravity="center"
+                android:paddingTop="13.5dp"
+                android:paddingBottom="13.5dp"
+                android:background="@drawable/blue_rect"/>
+        </LinearLayout>
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+</RelativeLayout>

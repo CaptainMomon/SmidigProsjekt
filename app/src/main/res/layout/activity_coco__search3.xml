@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.example.wolfsoft2.coco_ecommerce_ui_kit.com.ws.wolfsoft2.coco_ecommerce_ui_kit.Coco_Search3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red_rect"
+        android:elevation="3dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginRight="14sp"
+            android:orientation="vertical">
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="16.7sp"
+                android:text="Search" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/search_rect"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="12dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:tint="#534a4a"
+                        android:src="@drawable/search"/>
+
+                    <customfonts.EditText_Roboto_Meidum
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="#737373"
+                        android:textColorHint="#534a4a"
+                        android:layout_marginLeft="15dp"
+                        android:hint="Search,Product,Brands,etc...."
+                        android:background="#00000000"/>
+
+
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:tint="#534a4a"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/ic_photo_camera"/>
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:tint="#534a4a"
+                        android:layout_marginRight="5dp"
+                        android:src="@drawable/ic_microphone"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="131dp"
+        android:layout_height="131dp"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/circle_gray">
+
+        <ImageView
+            android:layout_width="66dp"
+            android:layout_height="60dp"
+            android:src="@drawable/sad"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#89000000"
+        android:text="No result Found"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="23dp"/>
+
+
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#89000000"
+        android:textSize="12.7dp"
+        android:text="Please check your spelling"
+        android:gravity="center"/>
+
+</LinearLayout>
