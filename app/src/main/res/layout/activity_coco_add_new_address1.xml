@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.CocoAddNewAddress1Activity">
+    <include layout="@layout/toolbar_cart"/>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:layout_marginTop="28.3dp"
+        android:text="Your Name"
+        android:layout_marginLeft="19.5dp"
+        android:textColor="@color/black"
+        />
+    <customfonts.EditText_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hint="eg. Gautam"
+        android:textSize="12sp"
+        android:layout_marginLeft="19.5dp"
+        android:textColorHint="#7137474f"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3c000000"
+        android:layout_marginTop="7.2dp"
+        android:layout_marginLeft="19.5dp"
+        android:layout_marginRight="19.5dp"/>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="24.2dp"
+        android:text="Email ID"
+        android:layout_marginLeft="19.5dp"
+        android:textColor="@color/black"
+        />
+    <customfonts.EditText_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hint="Enter your Email address"
+        android:layout_marginLeft="19.5dp"
+        android:textColorHint="#7137474f"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3c000000"
+        android:layout_marginTop="7.2dp"
+        android:layout_marginLeft="19.5dp"
+        android:layout_marginRight="19.5dp"/>
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="24.2dp"
+        android:text="Phone number"
+        android:layout_marginLeft="19.5dp"
+        android:textColor="@color/black"
+        />
+    <customfonts.EditText_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hint="eg. 9823675873"
+        android:textSize="12sp"
+        android:layout_marginLeft="19.5dp"
+        android:textColorHint="#7137474f"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3c000000"
+        android:layout_marginTop="7.2dp"
+        android:layout_marginLeft="19.5dp"
+        android:layout_marginRight="19.5dp"/>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_marginTop="24.2dp"
+        android:text="Password"
+        android:layout_marginLeft="19.5dp"
+        android:textColor="@color/black"
+        />
+    <customfonts.EditText_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:hint="Enter strong password"
+        android:textSize="12sp"
+        android:layout_marginLeft="19.5dp"
+        android:textColorHint="#7137474f"
+        android:layout_marginTop="10dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#3c000000"
+        android:layout_marginTop="7.2dp"
+        android:layout_marginLeft="19.5dp"
+        android:layout_marginRight="19.5dp"/>
+
+
+
+</LinearLayout>

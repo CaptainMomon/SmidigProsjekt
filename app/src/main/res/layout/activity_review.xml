@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f5f6f7"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.ReviewActivity">
+    <include layout="@layout/review"></include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="13.3sp"
+        android:layout_marginLeft="19.3dp"
+        android:text="Customer Ratings and Reviews"
+        android:layout_marginTop="23.3dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="23.2dp"
+        android:layout_marginLeft="19.5dp">
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="21.7dp"
+        android:text="4.0"/>
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="/ 5"
+        android:textColor="#9a000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="27.3dp">
+            <RatingBar
+                android:id="@+id/rtbProductRating"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:numStars="5"
+                android:rating="4"
+                android:isIndicator="false"
+                android:theme="@style/RatingBar"
+                style="?android:attr/ratingBarStyleSmall" />
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="11.7sp"
+                android:text="745 reviews and 8593 Ratings  >"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#43707070"
+        android:layout_marginTop="16.5dp"/>
+    </LinearLayout>
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/white"
+        android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="16.5dp"
+        android:paddingBottom="16.5dp"
+        android:background="@color/white"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:layout_marginRight="11.2dp"
+            android:layout_weight="1"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/watch1"
+            app:siSquare="true"/>
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:layout_marginRight="11.2dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/watch1"
+            app:siSquare="true"/>
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:scaleType="fitXY"
+            android:layout_marginRight="11.2dp"
+            android:layout_weight="1"
+            app:siShape="@drawable/rect1"
+            android:src="@drawable/watch1"
+            app:siSquare="true"/>
+        <LinearLayout
+            android:layout_width="73dp"
+            android:layout_height="73dp"
+            android:background="@drawable/rect_recycler"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1">
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13+"
+                android:textSize="13.3sp"
+                android:layout_gravity="center"
+                android:gravity="center" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    </android.support.v7.widget.CardView>
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="2dp"-->
+        <!--android:background="@drawable/shadow"-->
+        <!--/>-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/view_line"/>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        app:cardBackgroundColor="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="16.5dp"
+        android:paddingLeft="19.5dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.7sp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="Great Diwali Gift"/>
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.7sp"
+                android:textColor="#488d29"
+                android:layout_marginRight="18.3dp"
+                android:text="Verified User"/>
+        </LinearLayout>
+        <RatingBar
+            android:id="@+id/rtb1ProductRating"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:numStars="5"
+            android:rating="5"
+            android:isIndicator="false"
+            android:theme="@style/RatingBar"
+            style="?android:attr/ratingBarStyleSmall" />
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10.3sp"
+            android:text="By Ruchi on 24 march 2017"
+            android:textColor="#95989a"
+            android:layout_marginTop="10.7dp"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11.3sp"
+            android:textColor="#545d64"
+            android:layout_marginTop="4.7dp"
+            android:text="Surprice Gift to my sister, she just jumped in air, loved it…"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="#43707070"
+        android:layout_marginLeft="19.5dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="19.5dp"
+        android:paddingBottom="16.5dp"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.7sp"
+                android:textColor="@color/black"
+                android:layout_weight="1"
+                android:text="Great Diwali Gift"/>
+            <customfonts.MyTextView_Roboto_Medium
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12.7sp"
+                android:textColor="#488d29"
+                android:layout_marginRight="18.3dp"
+                android:text="Verified User"/>
+        </LinearLayout>
+        <RatingBar
+            android:id="@+id/rtb2ProductRating"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:numStars="5"
+            android:rating="5"
+            android:isIndicator="false"
+            android:theme="@style/RatingBar"
+            style="?android:attr/ratingBarStyleSmall" />
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10.3sp"
+            android:text="By Ruchi on 24 march 2017"
+            android:textColor="#95989a"
+            android:layout_marginTop="10.7dp"/>
+        <customfonts.MyTextView_Roboto_Regular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="11.3sp"
+            android:textColor="#545d64"
+            android:layout_marginTop="4.7dp"
+            android:text="Surprice Gift to my sister, she just jumped in air, loved it…"/>
+
+    </LinearLayout>
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View All Reviews"
+        android:textColor="@color/toolbarColor"
+        android:paddingLeft="19.5dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="16.7dp"
+        android:background="@color/white"/>
+
+    </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

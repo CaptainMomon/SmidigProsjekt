@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.CocoCartActivity">
+    <include layout="@layout/toolbar_cart"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rect_recycler"
+        android:elevation="1dp"
+        android:layout_marginLeft="8.3dp"
+        android:layout_marginRight="8.9dp"
+        android:layout_marginTop="13.3dp">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
+    android:clipToPadding="false"
+    android:paddingBottom="20dp"
+    android:id="@+id/recycler1">
+
+</android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ship To"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="13.3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="1dp"
+            android:layout_marginLeft="8.3dp"
+            android:layout_marginRight="8.9dp"
+            android:background="@drawable/rect_recycler"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="17dp"
+                    android:textSize="12.7sp"
+                    android:textColor="@color/black"
+                    android:text="21/A Maskot Mahasop, Near AK Road, 546
+KK street, Ausins, UK, GH5883"/>
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/view_line"/>
+
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Edit"
+                    android:textColor="@color/black"
+                    android:textSize="12.7sp"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.3dp"
+            android:layout_marginRight="8.9dp"
+            android:elevation="1dp"
+            android:orientation="vertical"
+            android:layout_marginTop="13.3dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:nestedScrollingEnabled="false"
+                android:id="@+id/recycler2">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        </LinearLayout>
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Type"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="11dp"
+            android:layout_marginBottom="13.3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.3dp"
+            android:elevation="1dp"
+            android:layout_marginRight="8.9dp"
+            android:background="@drawable/rect_recycler"
+           >
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                android:clipToPadding="false"
+                android:id="@+id/recycler3">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+        <customfonts.TextViewSFProDisplaySemibold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="13.3sp"
+            android:text="Conform your details above"
+            android:textColor="@color/black"
+            android:layout_marginTop="36dp"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp">
+            <customfonts.TextViewSFProDisplayRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get 50% Cashback on this order, upto 150Rs, TC apply"
+                android:textSize="10.7sp"
+                android:textColor="@color/black"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/info"
+                android:layout_marginLeft="8dp"/>
+        </LinearLayout>
+        <customfonts.Button_SF_Pro_Display_Semibold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_rect"
+            android:textColor="@color/white"
+            android:textSize="13.3sp"
+            android:text="Confirm and place order"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            />
+
+
+    </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

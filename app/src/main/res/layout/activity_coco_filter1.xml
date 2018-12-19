@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wolfsoft2.coco_ecommerce_ui_kit.com.ws.wolfsoft2.coco_ecommerce_ui_kit.CocoFilter1_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity=""
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_cart"/>
+
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cliclk On Bottom Filter Opne The Pop Up"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/filter_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/filter"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentRight="true"/>
+</RelativeLayout>

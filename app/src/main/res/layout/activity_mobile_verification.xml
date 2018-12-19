@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ws.design.coco_ecommerce_ui_kit.MobileVerificationActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <include layout="@layout/toolbar_cart"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/white"
+            android:layout_marginBottom="5dp">
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X X X X"
+        android:paddingTop="21.2dp"
+        android:paddingBottom="21.2dp"
+        android:background="@color/white"
+        android:textSize="16.7sp"
+        android:textColor="#6e000000"
+        android:gravity="center_horizontal"/>
+
+        </android.support.v7.widget.CardView>
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="4dp"-->
+        <!--android:background="@drawable/shadow">-->
+    <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="28.6dp">
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#545559"
+                android:textSize="12sp"
+                android:text="We are verifying your mobile number "/>
+
+            <customfonts.MyTextView_Roboto_Bold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:textColor="@color/black"
+                android:text="9549990142 "
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+    <customfonts.MyTextView_Roboto_Regular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/toolbarColor"
+        android:textSize="12sp"
+        android:text="Edit Mobile number"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resend OTP"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"/>
+
+
+</RelativeLayout>

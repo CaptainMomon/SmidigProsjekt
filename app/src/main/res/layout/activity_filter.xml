@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.wolfsoft2.coco_ecommerce_ui_kit.com.ws.wolfsoft2.coco_ecommerce_ui_kit.FilterActivity">
+
+
+    <include layout="@layout/toolbar_hompage"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price"
+            android:textSize="13.3sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"/>
+
+
+        <com.crystal.crystalrangeseekbar.widgets.CrystalRangeSeekbar
+            android:id="@+id/rangeSeekbar1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            app:min_value="50"
+            app:max_value="1000"
+
+            app:bar_color="#cfcfcf"
+            app:bar_highlight_color="@color/red"
+            app:left_thumb_color="@color/red"
+            app:right_thumb_color="@color/red"
+            app:left_thumb_color_pressed="@color/red"
+            app:right_thumb_color_pressed="@color/red"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center">
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/textMin1"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="$ 100"
+                android:textColor="#666666"
+                android:background="@drawable/filter_gray_rect"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:paddingLeft="25dp"/>
+
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:background="#95989a"/>
+
+
+
+            <customfonts.MyTextView_Roboto_Medium
+                android:id="@+id/textMin2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="$ 100"
+                android:textColor="#666666"
+                android:background="@drawable/filter_gray_rect"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:gravity="center"
+                android:paddingLeft="25dp"/>
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#dfe1e3"/>
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:groupIndicator="@null"
+            android:childDivider="#00000000"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

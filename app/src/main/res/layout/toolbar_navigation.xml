@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/toolbar"
+    android:background="@color/red">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/navigation_menu"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:tint="@color/white"
+        android:src="@drawable/ic_menu"/>
+
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+       android:gravity="center"
+        android:textColor="@color/white"
+        android:text="Navigation"
+
+        android:layout_gravity="center_vertical"/>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

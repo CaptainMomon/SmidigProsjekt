@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/red">
+
+
+    <ImageView
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/ic_back_arrow" />
+
+    <customfonts.MyTextView_Roboto_Medium
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16.7sp"
+        android:textColor="@color/white"
+        android:text="Search : Mobile"
+        android:layout_marginLeft="25dp"/>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:orientation="horizontal">
+
+
+
+        <customfonts.MyTextView_Roboto_Medium
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 items"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:textSize="13.3sp"
+            android:layout_marginRight="15dp"/>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="10sp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/cart"/>
+
+            <ImageView
+                android:layout_width="7dp"
+                android:layout_height="7dp"
+                android:layout_gravity="right"
+                android:layout_marginBottom="5dp"
+                android:src="@drawable/circle_green"/>
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</android.support.v7.widget.Toolbar>

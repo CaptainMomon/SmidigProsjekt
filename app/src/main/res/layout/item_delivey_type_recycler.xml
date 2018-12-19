@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingTop="22dp"
+    android:paddingLeft="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="15.2dp">
+        <RadioButton
+            android:id="@+id/button1"
+            style="@style/radionbutton"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#666666" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <customfonts.MyTextView_Roboto_Medium
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.7sp"
+                    android:layout_weight="1"
+                    android:id="@+id/deliveryType"
+                    android:layout_marginLeft="10.3dp"
+                    android:textColor="@color/black"
+                    android:text="Express Delivery"/>
+                <customfonts.MyTextView_Roboto_Regular
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/amount"
+                    android:textColor="@color/toolbarColor"
+                    android:text="+$9"
+                    android:layout_marginRight="20.3dp"/>
+            </LinearLayout>
+            <customfonts.MyTextView_Roboto_Regular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greyText"
+                android:text="1 day Delivery"
+                 android:id="@+id/noOfDays"
+                android:layout_marginLeft="10.3dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/viewline"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0.7dp"
+        android:background="@color/viewLineColor"
+        android:layout_marginLeft="36dp"/>
+
+</LinearLayout>
